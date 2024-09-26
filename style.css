@@ -1,0 +1,114 @@
+body {
+  font-family: 'Helvetica Neue';  
+  text-align: center;
+  margin: 20px;
+  background-image: url("quiz.png");
+  
+  background-size: cover; 
+}
+#skipIntro {
+  text-decoration: none; 
+  color: #64AD9C; 
+  font-weight: bold; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+}
+
+#skipIntro:hover {
+  background-color: #64AD9C; 
+  color: white; 
+}
+#intro-container{
+  max-width: 600px;
+    margin:auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #B8DED5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    font-size: 15px;  
+}
+
+#answers button.selected {
+  background-color: #468c7e;
+}
+  #quiz-container {
+    max-width: 600px;
+    margin:auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #B8DED5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    font-size: 15px;  
+  }
+  
+  #answers button {
+    background-color: #64AD9C; 
+    color: rgb(0, 0, 0); 
+    padding: 5px;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Helvetica Neue';  
+  }
+  
+  #answers button:hover {
+    background-color: #468c7e; 
+  }
+  
+  #progress {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #nextBtn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: 	#FF93AE;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';  
+  }
+  
+  #nextBtn:hover {
+    background-color:  	#FF537E;
+  }
+
+  #finishBtn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color:	#FF93AE;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';  
+  }
+  
+  #finishBtn:hover {
+    background-color:	#FF537E;
+  }
+  
+  
+  img[src="help.png"] {
+    width: 100px; 
+    height: auto; 
+    margin-top: 10px;
+  }
+ 
